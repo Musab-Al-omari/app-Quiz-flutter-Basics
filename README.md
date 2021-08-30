@@ -1,16 +1,26 @@
+# flutter_App Quiz
 # flutter_basics
 
-A new Flutter project.
+A new Flutter project. that i make to learn the flutter basics and the Dart language base on udemy course named *** Flutter & Dart - The Complete Guide 2021 Edition ***
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## what do i learn by bulding this project ?
 
-A few resources to get you started if this is your first Flutter project:
+1. what is flutter 
+2. what is  Dart
+3. the basic command of the terminal like flutter run , flutter doctor..etc
+4. stateless and statefull Widget and the diffrent between them 
+5. passing data between the  Widget
+6. basic styling methoods and classes
+7. reuesable  Widget
+8. object (map) inside Dart
+9. one of the way for typing the script 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### deployed link  ? 
+still not deploy 
+### want try the quiz ?
+just clone and start the flutter app
+
+
