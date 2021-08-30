@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
       'answers': [
         {'text': 'these guys are not my problem ', 'score': 20},
         {'text': 'I will eat them all ', 'score': 10},
-        {'text': 'i will my best', 'score': 40},
+        {'text': 'i will do my best', 'score': 40},
         {'text': 'if i have time may be i will help', 'score': 30},
       ]
     },
@@ -75,6 +75,12 @@ class _MyAppState extends State<MyApp> {
     }
   }
 
+  void onReset() {
+    setState(() {
+      _questionsIndex = 0;
+    });
+  }
+
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
@@ -84,7 +90,22 @@ class _MyAppState extends State<MyApp> {
         body: (_questionsIndex < _questions.length)
             ? myList(_questions, _questionsIndex, _pressed)
             : Center(
-                child: Text(_fainalResult),
+                child: Column(
+                  children: [
+                    Text(
+                      _fainalResult,
+                      style:
+                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                    ),
+                    TextButton(
+                      onPressed: onReset,
+                      child: Text('Reset'),
+                      style: ButtonStyle(
+                          foregroundColor:
+                              MaterialStateProperty.all(Colors.blue)),
+                    )
+                  ],
+                ),
               ),
       ),
     );
