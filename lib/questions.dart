@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class Questions extends StatelessWidget {
-  final String questionText;
-  Questions(this.questionText);
+  var questionText;
+  Questions(questionText) {
+    this.questionText = questionText;
+  }
   @override
   Widget build(BuildContext context) {
     return Container(
