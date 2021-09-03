@@ -20,6 +20,15 @@ A new Flutter project. that i make to learn the flutter basics and the Dart lang
 
 ### deployed link  ? 
 still not deploy 
+
+
+![main page q1](./assets/images/Screenshot_1630697063.png)
+![main page q2](./assets/images/Screenshot_1630697066.png)
+![main page q3](./assets/images/Screenshot_1630697069.png)
+![main page q4 ](./assets/images/Screenshot_1630697072.png)
+![reset](./assets/images/Screenshot_1630697076.png)
+
+
 ### want try the quiz ?
 just clone and start the flutter app
 
